@@ -11,6 +11,9 @@ module.exports = {
         teal: '#2E6D81',
         cyan: '#7DE6F4',
         black: '#050D14',
+      },
+      fontFamily: {
+        poppins: ["Poppins", sans-serif]
       }
     },
   },
