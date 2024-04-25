@@ -13,9 +13,11 @@
     <title>Magenta Lime Band</title>
   </head>
   <body>
-    <div class="max-w-sm mx-auto text-center md:max-w-3xl md:p-8">
+    <div
+      class="max-w-sm mx-auto text-center md:max-w-3xl md:p-8 lg:max-w-7xl lg:grid lg:grid-cols-3 lg:gap-x-8"
+    >
       <!--Logo-->
-      <header class="flex justify-center my-12">
+      <header class="flex justify-center my-12 lg:col-span-2">
         <a href="#">
           <img
             class="max-w-36"
@@ -26,7 +28,7 @@
       </header>
 
       <!--Hero opening image-->
-      <section>
+      <section class="lg:col-start-1 lg:col-span-2">
         <picture>
           <img
             src="https://assets.codepen.io/296057/fem-blindfold-475.jpg"
@@ -36,9 +38,9 @@
       </section>
 
       <!--Main Content - Tours-->
-      <main>
-        <h1>Tour</h1>
-        <div class="md:grid md:grid-cols-3 md:gap-8">
+      <main class="lg:col-start-3 lg:row-start-2 lg:row-span-4">
+        <h1 class="lg:mt-0">Tour</h1>
+        <div class="md:grid md:grid-cols-3 md:gap-8 lg:flex lg:flex-col">
           <p>
             <span class="text-tan">31 July 2023</span><br /><span
               class="text-lg text-lime"
@@ -91,7 +93,7 @@
       </main>
 
       <!--Reviews-->
-      <section class="gap-8 md:grid md:grid-cols-3 md:gap-8">
+      <section class="flex gap-8 md:grid md:grid-cols-3 md:gap-8 lg:col-span-2">
         <div class="mt-8">
           <img
             src="../assets/fem-purple-arms.jpg"
@@ -145,7 +147,7 @@
       </section>
 
       <!--Footer-->
-      <footer class="mt-20 uppercase">
+      <footer class="mt-20 uppercase lg:col-start-1 lg:col-span-2">
         <p class="uppercase"><a href="index.html">Contact</a></p>
         <p>&copy; 2024 Magenta Lime</p>
       </footer>
