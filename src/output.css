@@ -625,3 +625,22 @@ img {
   --tw-contain-paint:  ;
   --tw-contain-style:  ;
 }
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-tan {
+  --tw-text-opacity: 1;
+  color: rgb(206 197 180 / var(--tw-text-opacity));
+}
+
+.text-lime {
+  --tw-text-opacity: 1;
+  color: rgb(164 255 162 / var(--tw-text-opacity));
+}
