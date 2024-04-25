@@ -731,6 +731,10 @@ img {
   justify-content: center;
 }
 
+.gap-8 {
+  gap: 2rem;
+}
+
 .space-y-3 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
@@ -745,6 +749,10 @@ img {
 
 .text-center {
   text-align: center;
+}
+
+.align-middle {
+  vertical-align: middle;
 }
 
 .text-lg {
@@ -767,6 +775,10 @@ img {
 }
 
 @media (min-width: 768px) {
+  .md\:flex {
+    display: flex;
+  }
+
   .md\:grid {
     display: grid;
   }
@@ -781,6 +793,10 @@ img {
 
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .md\:justify-center {
+    justify-content: center;
   }
 
   .md\:gap-8 {
